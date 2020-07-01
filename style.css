@@ -1,4 +1,60 @@
 body{
     margin: 0px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+
+p{
+    color: dimgray;
+}
+
+
+.jack-smith-name-highlight{
+    color: deeppink;
+    font-size: 30px;
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+
+.half-width img{
+    width:70%;
+}
+
+
+.text-area{
+    margin-top: 150px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,pink,deeppink);
+    padding:5px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.jackSmith-top-banner{
+    background-image: url("images/header-bg.png");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+
+section{
+   height: 500px;
 }
