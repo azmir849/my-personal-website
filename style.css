@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -36,7 +36,7 @@ p{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,pink,deeppink);
+    background-image: linear-gradient(45deg,#c9699b,#ba5d8d);
     padding:5px 20px;
     border-radius: 10px;
     color: white;
@@ -78,17 +78,73 @@ section{
 
 .image-gallery img{
      width:30%;
-     margin-top: 60px;
+     margin-top: 40px;
 }
 
 .lastest-work-section{
     background-image: url("images/latest-work-bg.png");
     background-size: 100% 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
-
 }
 
 #latest-work-word{
     text-align: center;
+    font-size: 40px;
+}
+
+
+#client-say{
+    text-align: center;
+}
+
+
+#bruce-moccy{
+    text-align: center;
+    font-size: large;
+}
+
+
+#lower-bruce-moccy{
+    font-size: x-small;
+    color: dimgray;
+}
+
+#lorem-ipsum{
+    text-align: center;
+    color: dimgray;
+}
+
+.gmail-area{
+    text-align: center;
+    background-image: linear-gradient(45deg,#c9699b,#ba5d8d);
+    padding:5px 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
+}
+
+
+.gmail-area h6{
+    color: white;
+}
+
+
+#gmail-text{
+    font-size: large;
+}
+
+
+.client-area-section{
+    background-image: url("images/footer-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 40px;
 }
