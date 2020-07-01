@@ -5,7 +5,7 @@ body{
 
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 
@@ -33,10 +33,6 @@ p{
 }
 
 
-.text-area{
-    margin-top: 150px;
-}
-
 
 .link-button{
     text-decoration: none;
@@ -50,11 +46,49 @@ p{
 
 .jackSmith-top-banner{
     background-image: url("images/header-bg.png");
-   background-size: 100% 100%;
-   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 
 section{
    height: 500px;
+   padding-top: 5px;
+}
+
+
+.biography-text-area{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+.biography-banner{
+    background-image: url("images/biography-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.image-gallery{
+     width: 80%;
+     float: left;
+    margin-left: 180px;
+}
+
+
+.image-gallery img{
+     width:30%;
+     margin-top: 60px;
+}
+
+.lastest-work-section{
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#latest-work-word{
+    text-align: center;
 }
